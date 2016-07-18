@@ -1,0 +1,15 @@
+smart_menu{display: none; position:absolute;top:30px;bottom:0;right:-270px; width:270px;background:#3b3f46;border-bottom:1px solid #00142a;color: #fff;background: #3b3f46;z-index:100}
+.smart_menu h2{display: block;padding:18px 15px;height: 14px;border-bottom: 1px solid #4f5359;background: #1c1f22;}
+.smart_menu>ul>li>a{display: block;padding:18px 15px;height: 14px;border-bottom: 1px solid #4f5359;}
+.smart_menu>ul>li{background: #3E4248;}
+.smart_menu>ul>li.on>a{background:url("../img/gnb_bg_titleHide.png") right 15px center no-repeat #005f83 !important;border-bottom:1px solid #7cb3cf;}
+.smart_menu>ul>li.all{display: none;}
+.smart_menu>ul>li.prep>a,
+.smart_menu>ul>li.student>a,
+.smart_menu>ul>li.help>a{background:url("../img/gnb_bg_titleMore.png") right 15px center no-repeat #324b62;}
+.smart_menu .smart_depth,
+.smart_menu .smart_depth2{display: none;}
+.smart_menu .smart_depth li>span{display: block;padding:18px 25px;height: 14px;border-bottom: 1px solid #4f5359;background:url("../img/gnb_bg_depthMore.png") right 15px center no-repeat #272f3a;color: #9da1a5;}
+.smart_menu .smart_depth li.on>span{color: #00b4ff;background:url("../img/gnb_bg_depthHide.png") right 15px center no-repeat #272f3a;}
+.smart_menu .smart_depth2 li{display: block;padding:12px 35px;height: 14px;background: #1a1c22;color: #a8a8a9;border-bottom: 1px solid #4f5359;}
+.contents_wrap{position:relative;width:100%;height: 100%;}
